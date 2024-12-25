@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "funder",
+						"type": "address"
+					}
+				],
+				"name": "addressToAmountFunded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountFunded",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "fund",
 				"outputs": [],
@@ -94,11 +113,11 @@
 			]
 		},
 		"contracts/FundMe.sol": {
-			"keccak256": "0x4518a227f08b5fb7a8211546de2d44eb475121d6dd79255875c5de9fff31a282",
+			"keccak256": "0x4615302e71db3e875d384efcb42a66b1ad2b9316e23a142276b772e8273156c5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ac539fe14b827525467d38d7d9fac9bf92e877a648933ad468b2740fc4738356",
-				"dweb:/ipfs/Qmb98zdnT1opVbENun8MwWBWLiCE7KFHEh9AGrmEDHXpXZ"
+				"bzz-raw://da7674f6a5d68647de4cff76a19b5c60aedd2eaed4d8b7163deb53d4caec9a6e",
+				"dweb:/ipfs/QmaBcxcMFJa84pRymFCfQFKkDTAHU37C3fVRxE1HVL7LBN"
 			]
 		}
 	},
